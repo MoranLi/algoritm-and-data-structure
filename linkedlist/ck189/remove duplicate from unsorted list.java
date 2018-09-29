@@ -1,4 +1,14 @@
 class solution{
+  /**
+   * two pointer algoritm
+   * @param list listthat need to remove duplicate element
+   * @return new length of list
+   * loop through list
+   * each time find a element different from original element
+   * means the elements between i and k is same
+   * so set next element to value of k 
+   * and move i to the next
+   */
   public int twoPointersolution(LinkedList<Integer> list){
     Collections.sort(list);
     int i =  0;
