@@ -1,7 +1,8 @@
 class solution{
   /**
+   * solution from leetcode 26
    * two pointer algoritm
-   * @param list listthat need to remove duplicate element
+   * @param list list that need to remove duplicate element
    * @return new length of list
    * loop through list
    * each time find a element different from original element
